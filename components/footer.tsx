@@ -5,7 +5,7 @@ const navigation = [
   { name: "Accueil", href: "/" },
   { name: "Tarifs", href: "/tarifs" },
   { name: "Galerie", href: "/galerie" },
-  { name: "Contact", href: "/contact" },
+  
   { name: "Réservation", href: "/reservation" },
 ]
 
