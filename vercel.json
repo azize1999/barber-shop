@@ -1,0 +1,15 @@
+{
+  "buildCommand": "prisma generate && next build",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "ADMIN_PASSWORD": "@admin_password",
+    "RESEND_API_KEY": "@resend_api_key",
+    "EMAIL_FROM": "@email_from",
+    "TWILIO_ACCOUNT_SID": "@twilio_account_sid",
+    "TWILIO_AUTH_TOKEN": "@twilio_auth_token",
+    "TWILIO_PHONE_NUMBER": "@twilio_phone_number",
+    "SHOP_NAME": "@shop_name",
+    "NODE_ENV": "production"
+  }
+}
